@@ -15,7 +15,6 @@ NAME = Roaring Lionus
 # o Look for make include files relative to root of kernel src
 MAKEFLAGS += -rR --include-dir=$(CURDIR)
 
-# test
 # Avoid funny character set dependencies
 unexport LC_ALL
 LC_COLLATE=C
